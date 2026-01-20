@@ -1,0 +1,22 @@
+[project]
+name = "langchain-doc-search"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "chromadb==0.4.22",
+    "langchain==0.1.0",
+    "langchain-community==0.0.10",
+    "langchain-openai==0.0.5",
+    "pypdf==3.17.4",
+    "python-dotenv==1.0.0",
+    "requests>=2.32.5",
+    "streamlit==1.29.0",
+    "tiktoken==0.5.2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]
